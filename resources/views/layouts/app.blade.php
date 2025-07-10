@@ -39,8 +39,9 @@
                 {{-- Déconnexion --}}
                 <form method="POST" action="{{ route('logout') }}">
                     @csrf
-                    <button type="submit" class="text-left w-full hover:text-blue-600">🚪 Déconnexion</button>
+                    <button type="submit">Se déconnecter</button>
                 </form>
+                
             </nav>
             
         </div>
